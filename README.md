@@ -1,23 +1,28 @@
 # OddOneOut-PythonProject
 
-Odd One Out Game
-Overview
-The Odd One Out Game is a simple Python game where players must guess the odd number in a randomly generated 10x10 grid. The game uses Tkinter for the GUI and Python’s random module for number generation.
+# 🧠 Odd One Out Game (Flask Web App)
 
-How to Play
-A 10x10 grid is displayed with one odd number.
+A fun and educational web-based game built using Python Flask where players identify the item that doesn’t belong in a group.
 
-Enter your guess in the input field.
+## 🚀 Features
+- 5 random rounds with shuffled options
+- Score tracking and final result
+- Responsive UI using Bootstrap 5
+- Session-based game flow
 
-Click "Submit" to see if your guess is correct.
+## 🛠️ Tech Stack
+- Python 3 + Flask
+- HTML/CSS (Bootstrap 5)
+- Vanilla JavaScript (optional)
 
-Requirements
-Python 3.x (Tkinter included)
+## 📦 Setup Instructions
 
-Run the Game
+1. Clone or download this repo.
+2. Navigate to the project folder.
+3. Install Flask:
+   bash:
+   pip install flask
+Run the app:
 bash:
-python main.py
-
-License
-MIT License
-
+python app.py
+Open http://127.0.0.1:5000 in your browser.
